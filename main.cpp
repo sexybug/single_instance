@@ -34,7 +34,7 @@ void mainProgram()
 //使用方法
 int main(int, char **)
 {
-
+    //将会创建processName.pid文件
     std::string processName = "The program";
     if (isRunning(processName))
     {
